@@ -1,0 +1,125 @@
+# SCV canonical PLACES — sourced from https://scvhistory.wpengine.com/places/
+# Add new names below. Lines starting with # are comments. Blank lines ignored.
+# This is the SCV team's curated list — first pass, will grow.
+
+Acton
+Agua Dulce
+# --- 2026-05-28 audit additions (no regex catches these via things classifier) ---
+Fort Tejon
+Cerro Gordo
+Mentryville
+# --- end audit additions ---
+Aliso Canyon
+Angeles National Forest
+Arcadia Street
+Beale's Cut
+Bear/Santa Clara Divide
+Bercaw Block
+Blackwell's Corner
+Bouquet Canyon
+Bouquet Junction
+Camulos
+Canyon Country
+Castaic
+Castaic Junction
+Centre Pointe
+Chaguayanga Village
+Chatsworth
+Cholame
+Creekview Park
+Dominguez Ranch
+Elizabeth Lake
+Elsmere Canyon
+Fish Canyon
+Golden Valley Area
+Gorman
+Green Valley
+Happy Valley
+Harry Carey Ranch
+Hart High School District
+Haskell Canyon
+Hasley Canyon
+Honby
+Humphreys/Via Princessa
+Hungry Valley
+Lake Hughes
+Lake Piru
+Lancaster
+Lang
+Larinan Ranch
+Lebec
+Lyon Canyon
+Lyons Avenue Corridor
+Lyons/Pico/99 Area
+Maps/Aerials
+Marple Canyon
+Melody/Monogram Ranch
+Mint Canyon
+Mojave Desert
+Mount Gleason
+Munz Lake
+Needham Ranch
+Newhall
+Newhall - Old Town/Downtown
+Newhall 1870s-1890s
+Newhall Creek
+Newhall Pass
+Newhall Schools
+Newhall-East
+Newhall-West
+North Newhall Planning Area
+Northlake
+Old Orchard I
+Owens Valley
+Pico/Mentryville
+Piru
+Piru Creek
+Placerita Canyon
+Potrero Canyon
+Quigley Canyon
+Railroad Avenue
+Rancho Camulos: Del Valle Period
+Rancho Camulos: Rübel Period
+Rancho La Liebre
+Rancho San Francisco
+Rancho Temescal
+Ravenna
+Remsen Street
+Rice Canyon
+Rim of the Valley Trail
+Romero Canyon
+Rye Canyon
+San Francisquito Canyon
+San Gabriel Mountains
+San Joaquin Valley
+Sand Canyon
+Sandberg
+Santa Clara River Valley
+Santa Clarita
+Santa Monica Mountains
+Santa Paula
+Saugus
+Sebastian Indian Reservation
+Seco Canyon
+Shadow Pines
+Sierra Pelonas
+Skyline Ranch
+Sleepy Valley
+Soledad Canyon
+St. Francis Dam
+St. John Subdivision
+Stevenson Ranch
+Tapia Canyon
+Tejon Pass/Grapevine
+Tejon Ranch
+Texas Canyon
+Tick Canyon
+Tochonanga Village
+Towsley Canyon
+Val Verde
+Valencia
+Valencia Town Center
+Valencia/Newhall Ranch
+Vista Canyon
+Whitney Canyon
+Wiley Canyon

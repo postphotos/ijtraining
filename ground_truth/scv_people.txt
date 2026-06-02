@@ -1,0 +1,962 @@
+# SCV canonical PEOPLE — sourced from https://scvhistory.wpengine.com/people/
+# Add new names below. Lines starting with # are comments. Blank lines ignored.
+# Format: "Last, First" or "Last, First [Suffix]" (SCV convention).
+# Some entries are not individual people (e.g., "Artists (Fine Arts)",
+# "Sheriffs of L.A. County") — treated as PERSON for now; retag later.
+
+Ables, Elmer R.L. Jr.
+Acosta, Dante
+Acosta, Rodolfo
+Acosta, Rudy Alexander
+Acuna, Henry
+Adams, Adrian
+Adelini, Al
+Agajanian Family
+Agajanian, J.C.
+Aguirre, Jose Antonio
+Alamo, Tony
+Ali, Hadji (Hi Jolly)
+Allen, Don
+Allen, Pat & Sheldon
+Alleyn, George
+Alonso, Juan
+Anderson, Bob
+Antonovich, Michael D.
+Araujo, Pablo
+Armantha Thibaudeau
+Arness, James
+Asher Family
+Asher, Jefferson
+Ashley, Janis
+Austin, Clarence
+Autry, Gene
+Ayers, George
+Babko, Bob
+Backer, James S.
+Baker, David
+Baker, Roy
+Baldessari, John
+Baldwin, E.J. 'Lucky'
+Balestra, John
+Ball, James Robert
+Ballard, Mike
+Balsz, Joseph B.
+Bancroft, Hubert H.
+Banning, Phineas
+Bard, Thomas A.
+Barger, Kathryn
+Barlow, Scott A.
+Barnett, Mike
+Bartlett, James Arthur
+Barton, Buzz (William Lamoreaux)
+Basham, Roger & Becki
+Bass, Charlotta
+Bass, Deborah S.
+Batugo, Bobby
+Bauccio, Lois
+Bauregard, Linda
+Beale, Edward F.
+Beall, Archibald Kelly
+Becerra, Glenn
+Belderrain, Francisca Lopez
+Bell, Harry
+Bell, Horace
+Bell, Ralph
+Beltzel, Jack
+Benz Family of Bouquet Canyon
+Bercaw Family of Saugus
+Berens, Brad
+Berger, Michael
+Bergstrom, John
+Berkey, Charles P.
+Best, Gerald M.
+Billet, Ray & Elizabeth Blum
+Bingham, Robert
+Bird, Larry & Sue
+Biscailuz Family
+Biscailuz, Eugene
+Bitzer, Billy
+Bjorkman, Ann-Marie & Mike
+Blake, Amanda
+Bledsoe, Dan
+Block, Sherman
+Blum, George
+Bolde, Bill
+Bolden, Ed
+Bonelli Family
+Bonelli, Dr. William G. Jr.
+Bonelli, Joyce
+Bonelli, William G.
+Boone, Dianna
+Boone, John
+Bordelon Family (Honby)
+Borders, John William Jr.
+Boston, John
+Bowman, Jereann
+Boyd, William (Hoppy)
+Boydston, Tim
+Boyer, Carl
+Boyer, Jack
+Boykin, Jim
+Bradbury, Ray
+Braly, Hunt
+Brathwaite, Louis
+Brawley, Bill
+Brevidoro Family
+Brewer, Sarah
+Brigandi, Phil
+Briner, Arthur N.
+Brooks, Mel
+Broome, William
+Brotzman, Paul
+Broutt, Herb
+Brown, Blanche
+Brown, Ed (Constable)
+Brown, Edmund G. "Jerry"
+Brown, Edmund G. "Pat"
+Brown, Gency
+Brown, Johnny Mack
+Brown, Peter
+Bryne, Stephen
+Buffham, Les
+Burke, Betty
+Burke, Gene
+Burkhart, Tim
+Burton, Billy
+Burton, Tim
+Bush, George H.W.
+Bustos, Crystl
+Byram, H. Keith & Virginia
+Cain, Ace
+Calczynski, Roman
+Campbell, Minnie Nancy
+Campton, George
+Canty, Elijah & Miriam
+Canutt, Yakima
+Caravalho, George
+Carewe, Edwin
+Carey, Harry Jr.
+Carey, Harry Sr.
+Carey, Olive Fuller Golden
+Carillo, Leo
+Carpenter, John
+Carr, Trem
+Carter, Archie
+Caystile, Kate A.
+Cederoth, Bruce
+Cesena Family of Newhall
+Chacanaca Family
+Chambers, Carol
+Chandler, Harry
+Chandler, Jon
+Chaney, Lon Jr.
+Chaplin, Charlie
+Chari, Francisco
+Charles M. Russell
+Cheek, Tru
+Cheney Family of Pico
+Cherry, Perry Leon
+Chesebrough, Robert Newhall
+Child, Katherine
+Choppe, Gary
+Chormicle, William
+Christopher, Maria
+Chu, Judy
+Chumash Culture
+Claffey, Francis T.
+Clark, Chuck & Ruth
+Clark, William J.
+Cloughery Family
+Cochran, Barbara & Russ
+Colbert, Steve
+Coldewey, Tony & Geri
+Colley, Stephen Edward
+Collins, Tim
+Colt, Jack
+Conant, John Michael
+Condie, Gary & Myrna
+Cone, Dick L.
+Cone, Robert Russel
+Conklin, Jerry
+Conlon, Scoop
+Connell, Charles F.
+Contreras, Edward D.
+Cook, David Caleb
+Cook, Richard
+Cook, Simon "Cy"
+Cooke, Charlie
+Cooper, Gary
+Cop, Dana
+Corbett, Buck
+Cordova Family of Castaic
+Cordova, Johnny
+Corrigan, Robert W.
+Costansó, Miguel
+Courtemanche Family
+Couts, Cave J.
+Covan, John
+Covarrubias, José
+Cox, Paula & Family
+Crabbe, Buster
+Cranston, Alan
+Crawford, Jeanna
+Crawford, Wayne & Dianne
+Crespí, Juan
+Crocker, C. Templeton
+Crocker, Charles F.
+Crosley, Bill
+Cullen, Charles F. Jr.
+Cullen, Lady Linda (Packard)
+Cullimore, Clarence
+Curtis, Ben & Dianne
+Curtis, Lyman & Lillian
+Cusumano, Gary
+D'Autremont, Jason
+Dalbey, Lester
+Daniels, Doreetha
+Darcy, Curtis
+Darcy, Jo Anne
+Daries, John
+Darr, Eugene Edward
+Davis, Bobby Augustus
+Davis, Ed
+Davis, Ken (Speedway)
+Davy, Jim & Susan
+Dean, James
+Deason, Morrie
+Deines, Harold G.
+Del Bagno, Stephen
+Del Rio, Dolores
+Del Valle Family
+Del Valle, Antonio
+Del Valle, Juventino
+Del Valle, Reginaldo F.
+Del Valle, Ygnacio
+DeLyser, Dydia
+Denise, Robert
+DiBernardi, Frank
+Dickason, James F.
+Dillenbeck, Charlie & Family
+Dilly, George R.
+Dimarzo, Mike
+Dinh, James
+Disney, Roy O.
+Disney, Walt
+Dominguez Family of Piru
+Dones, Sidney
+Donnelly, Art & Glo
+Dorn, Warren M.
+Dorsett, Ivan
+Doty Family of Newhall
+Downs, Bob
+Drain, Tracy D.
+Droz, Jim
+Drury, James
+Duehren, John
+Dunn, Ed
+Dyer Family of Mint Canyon
+Earl, Lloyd
+Earle, David D.
+Earp, Wyatt
+Edwards, Don
+Edwards, Thornton
+Eilers, Sally
+Elliott, Bill
+Ellis, Phil
+Elmore, Loren
+Engbrecht, Vicki
+Engelhardt, Zephyrin
+Eppich, Carl
+Erickson, Bruce
+Ervin, Anthony
+Eu, March Fong
+Evans, Arthur
+Evans, Betty (I)
+Evans, Betty (II)
+Evans, Scott
+Evans, Wolcott
+Fages, Pedro
+Falck, Susan
+Faulkner, Walt
+Fay, Michael Andrew
+Feany, Victor
+Feinstein, Dianne
+Felix, Allyson
+Felton, Charles N.
+Fernald, Charles
+Ferrier, August
+Ferry, Frank
+Fields, W.C.
+Finch, James J.
+Fisher, Walt & Melba (Walker)
+Flagg, James Montgomery
+Fleet, Will
+Fleming, Michael
+Flores-Mejia, José Ricardo
+Foley, Estelle
+Ford, John
+Ford, Samantha
+Ford, Tennessee Ernie
+Forker, William N.
+Fortier, Mike
+Fortine, Bruce
+Fose, Robert Remy
+Fosselman, Jill
+Foster, Bill
+Frago, Walter
+Franklin, John (Salapatek)
+Fraser, Alexander I.
+Freeman, Kurt & Peggy
+Fremont, John C.
+Frew Family of Newhall
+Frew, Tom III
+Frew, Tom IV
+Fuller, John
+Fuller, Robert
+Fustero Family/Ancestry
+Fustero, Sinforosa
+Gage, Henry Tifft
+Gallion, Gwen
+Garasi, Louis & Rita
+Garcés, Francisco
+Garcia, Dennis
+Garcia, Samuel X.
+Garcia, Ted
+Gardella, Jim
+Garner, James
+Garrett, Sam
+Garrison, Gabby
+Garver, Katherine
+Gaskill, Mike
+Gates, Mark Jr.
+Gavin, Thomas R.
+Gelcich, Vincent
+Gelig, Ian
+Gemas, Terry Dale
+Geno, Jeanne
+Gibbs, Jason
+Gibson, Hoot
+Gifford, John & Sarah
+Gillespie, Mike
+Gillibrand, Phil
+Gilmour, Mildred
+Gladbach, E.G. "Jerry"
+Gleason, George
+Godey, Alexis
+Godwin, Joseph Samuel
+Goessel, Tracey
+Goldman, Carl & Jeri
+Goldstein, Barry
+Gore, Robert
+Gorman, Robert Hy
+Gottardi Family of Piru
+Gould, Matt
+Grady, Lucretia del Valle
+Gray, Linda
+Gray, Ralph & Cheryl
+Green, Richard
+Griffith, D.W.
+Guglielmino, Don
+Gulley, James
+Guthrie Family of Saugus Depot
+Gutierrez, Jorge
+Haisch, J.J.
+Hale, Don
+Hall, Steve
+Hall, Tedmund D.
+Hamblen, Stuart
+Hampton, Butch
+Hanigan, Daniel
+Happy, Edith
+Harland, Jack Lewis
+Harmer, Alexander
+Harrington, John P.
+Harrington, Mike
+Harris, Cynthia Neal
+Harris, George W.
+Harris, Jenks
+Harris, Kamala
+Harris, Norman
+Hart, William S.
+Hart, William S. Jr.
+Harte, Duane & Pauline
+Hartig, Anthea
+Hartley, Gene G.
+Haskell Family
+Hauser, Laura
+Hayes-Bautista, David E.
+Hazama, Cheryl
+Hedren, Tippi
+Heidt, Janice
+Heinz, Carl F.
+Heizer, Robert F.
+Hellrigel, Dianne Erskine
+Hendrixson, Rita
+Herrington, Rick
+Hersholt, Jean
+Hickson, Ernie
+Hider, Jerry & JoAnne
+Higgins, Paul
+Hill, Paul
+Hilton, Kiza
+Hobbs, John
+Hoeltje, David
+Hoffman, Carolyn
+Hoffman, Frank
+Hoffner, James
+Holmes, Ed
+Homa, Max
+Hon, Dan
+Hooper, Ray Jr.
+Hoover, Lou Henry
+Hornaday, Ron Jr.
+Horner, Hope
+Houdeshell Family
+Houghton, Lloyd
+Howell, C. Thomas
+Hume, Alexander
+Hummel, Elfi
+Huntsinger, Curtis R.
+Huntsinger, Lena
+Huntsinger, Robynn
+Hyde, Katherine
+Ingram, Pam
+Innis, Dr. E.C.
+Insolo, Jimmy
+Jackson, Helen Hunt
+Jacobs, Shelby
+Jardine, Tip
+Jarel, Mike
+Jauregui, Andy
+Jeffries, Herb
+Jeffries, James J.
+Jenkins, Michele
+Jenkins, William W.
+Jennings, Larry
+Jensen, Bob
+Jerry, Donald
+Johansen, Craig
+Johanson, Gary
+Johnson, Gary (Speedway)
+Johnson, Hiram
+Johnson, John R.
+Johnston, W. Ray
+Jones, Brian (Blacksmith)
+Jones, Buck
+Kane, Bonnie
+Kapp, Joe
+Kaulbach, Ann
+Keel, Howard
+Kellar, Bob
+Kellogg, Ruby Jenkins
+Kelly, Peggy
+Kelly, Raymond Gene
+Kenaston, Lawrence Edward
+Kennedy, Arthur C. (Judge)
+Kennedy, Bill
+Kent, Jim
+Kersey, Vierling
+Keysor Family
+Keysor, Dick
+Keysor, Jim
+Kilpatrick, Virgil
+Kimball, Don
+Kimmey, Bill
+Kingsburry, Charles
+Kinnear, P.V.
+Klajic, Jill
+Kleeman, Frank & Charlotte
+Kline, Alice
+Kline, Kevin
+Klinger, Henry Chester
+Kness, Gary Dean
+Knight, Steve
+Knight, William J. "Pete"
+Koontz, Dennis
+Korenthal, Kevin
+Koslo, Paul
+Kotch, Michael
+Kraszynski, Andrew
+Kuhlman, Mike
+Kupcha, Dorothy Lewis
+Kuredjian, Jake
+Lagasse, Carol & Frenchy
+Lambourne, Linda
+Lamkin, Fred
+Lamkin, Ted
+Landis, John
+Laney, Gladys
+Lang, John
+Larinan Family of Pico
+Larkin, Thomas O.
+Larsen, Cole William
+Lasuen, Fermin
+Latta, Frank
+Lau, Stanley
+Lauffer, Marlee
+Leaming, Christopher
+Lebeck, Peter
+LeBrun, Frank
+LeBrun, Gus
+Lechler Family of Piru
+Lee, Robert C.
+Lee, Tom
+Lee, Wayne
+Lefton, Abe
+Lentini, Jim
+Levine, Paul A.
+Levison, Ruthann
+Lewis, Robert
+Lile, Don
+Lilley, Jack
+Lindenheim, Victor
+Lindner, Don
+Littlewarrior, Nadiya
+Lizza, Patrick
+Lockwood, Gary (Yurosek)
+Lombardi Family
+Lombardi, Julio
+London, Julie
+Longshore, Todd & Family
+Lopez, Chico
+Lopez, Francisco
+Lopez, Jose Jesus
+Lorenz, Shirley Rubel
+Lowe, Thomas L.
+Lubas, Ken
+Lummis, Charles F.
+Lux, John
+Lyles, A.C.
+Lynch, Kevin
+Lyon Family
+Lyon, Sanford
+MacDonald, Kevin
+MacDougall, C.M.
+MacGregor, Joan
+Mack, Charles
+Macpherson, Adele
+Maga, Frank
+Magowan, Russ
+Maloney, Ellen Mary
+Malvern, Paul
+Mann, John
+Manriquez, Lyda
+Manzer, Darryl
+March, David
+Marincola, Tony & Genevieve
+Marlewski, Jim
+Marroquin, Carlos
+Martin, Cathy and Steve
+Mason, Tom
+Mast, Gary
+Masterson, Ed
+Mather, Stephen T.
+Matter, Kyle
+Mayhue Family of Newhall
+Maynard, Ken
+McAlister, Jim
+McBean, Atholl
+McBean, Peter
+McCarthy, Karl
+McCormick, Matthew
+McCrea, Joel
+McDonnell, Jim
+McGrath, J. Michael
+McGrath, Jack
+McKeon, Howard P.
+McKibben, Irene Ruiz
+McKinley, Michele Ybarra
+McKinney, Clint
+McLaughlin, John
+McLean, Marsha
+McPherson, Robert C.
+Mehterian Family
+Melrose, Norman
+Mentry, Arthur Charles
+Mentry, Charles A.
+Mercado Family of Castaic
+Mercado-Fortine, Gloria
+Merriam, C. Hart
+Messina, Bob
+Miller, Arthur C.
+Miller, Sheila (FOHP)
+Miranda, Bill
+Mitchell Family of Soledad
+Mitchell, Bob (Musician)
+Mix, Tom
+Montana, Montie
+Monteleone, Gary Robert
+Montenegro, Gilbert D.
+Moore, Albert Lee
+Moore, Bob (Speedway)
+Moore, Roger
+Mootnick, Alan
+Morissett, Donald E.
+Morris, Charles
+Muhl, Edward
+Muhl, Suzanne
+Mulholland, Christine
+Mulholland, William
+Mullally, Don
+Munz Family of Elizabeth Lake
+Murphy, Walter
+Myers, Dee Dee
+Myers, John William
+Myler, Barbara
+Nadeau, Remi (Deer Park)
+Nadeau, Remi (Freighter)
+Nadeau, Remi (Historian)
+Nance, Frank A.
+Needham, Henry C.
+Neely, Hugh Munro
+Neiberger, Sue
+Newhall, H.M. Family/Descendants
+Newhall, Henry Gregory
+Newhall, Henry Mayo
+Newhall, Joshua O.
+Newhall, Ruth Waldo
+Newhall, Scott
+Newhall, Tony
+Newton, Tom
+Nichols, John
+Nickel, Richard E.
+Nielsen, Collyn
+Nisich, Tony
+Nogales, Frank
+North, Edward Guy
+O'Brian, Hugh
+O'Brien, J.J.
+O'Callahan, Fox
+O'Hara, Maureen
+O'Reilly, James
+Oakes, Danny
+Oakie, Jack
+Obama, Barack
+Ohler, Bob & Rose
+Olme Family
+Olmstead, John E.
+Olson, Culbert
+Oren, Bill & Vicki
+Ortega Jr., Rudy
+Ortega, Frank Dennis
+Ortiz, Gail
+Osby, Daryl L.
+Osmer, Harold
+Ostrom, Hank & Peggy
+Outland, Charles F.
+Palance, Jack
+Palmer, Edith
+Palmer, Paul & Pamela
+Pardee, Ed
+Parker, Harold
+Parker, Lauren
+Parson, Sam
+Parsons, Johnny
+Patterson, Richard A.
+Pavini, Rudy
+Peacher, Rodney
+Pederson, George
+Pelino, Arthur E.
+Pember, Betty
+Pence, James
+Perea Family of San Francisquito
+Perkins Family
+Perkins, Arthur B.
+Perkins, Richard
+Peters, Craig
+Peterson, Stephen Russell
+Petras, Rich
+Pherigo, Lyn
+Phillips, Frances D.
+Phillips, George
+Phillips, Gladys F.
+Phillips, Norm
+Phipps, Dave
+Pickford, Mary
+PIco, Andrés
+Pilcher, Jack
+Pineau, William Ernest
+Pittenger, Chuck
+Pollack, Alan
+Portolá, Gaspar
+Portwig, Emily Brown
+Powell, John F.
+Powell, Mel
+Prado, Janine
+Press, Dan
+Price, Walt Jr.
+Price, Walt Sr.
+Priesz, Paul
+Prosser, Brian Cody
+Prosser, Oren
+Pulskamp, Kenneth R.
+Putnam, Rick
+Putnam, Tricia Lemon
+Quarry, Jerry
+Quinn, Anthony
+Quinones, Arnie
+Radtke, Carl Leonard
+Raggio Family of San Francisquito
+Ralphs Family
+Rasmussen Family (Carl)
+Rasmussen, Patti
+Rasmussen, Peggy
+Ray, Don
+Ray, Gary
+Ray, Russell
+Reagan, Ronald
+Reardon, John
+Redd, Ed
+Redmond, James M.
+Reeder, David Lee
+Reisbig, Larry
+Remenih, Tony
+Reubens, Paul (Pee Wee Herman)
+Reynolds, Bill
+Reynolds, Jerry
+Rheinschmidt, Chuck
+Rice, Bill
+Richards, Jarrett T.
+Richman, Keith
+Riddlebarger, Glenn A.
+Rioux, Richard H.
+Ripley, Vernette Snyder
+Rising, Julia
+Ritter, Tex
+Rivera, Naya
+Rivera, Nick & Family
+Robbins, Skeeter Bill
+Roberts, John M. & Louise
+Robertson, Dale
+Robinson, Jim (Speedway)
+Robinson, Richard
+Robinson, Sarah (1800s)
+Robinson, William Wilcox
+Rock, Carol & Frank
+Rockwell, Robert C.
+Rodgers, Jay & Joyce
+Rodriguez, Don
+Rodriguez, Stanley
+Rogers, J. David
+Rolfe, Lionel
+Rollins, Glen and Loretta
+Romero, Alvino
+Ross, Thomas Milton Jr.
+Ross, William D.
+Royce, Roselyn
+Rozaire, Charles
+Rübel Family of Camulos
+Rübel, August A.
+Ruiz, Henry & Family
+Ruiz, Juan Jr. (Boxer)
+Ruiz, Martin (I) of Bouquet Cyn
+Ruiz, Martin (II) & Family
+Ruiz, Martin (III) of San Francisquito
+Runner, George
+Russell, Pearle Pardee
+Ruttman, Troy
+Salazar, Alan
+Salazar, José (1800s)
+Sandberg, Harald
+Saniger, Ray
+Sapper, Ken
+Sarro, Carmen
+Schaefer, Jim
+Schiavo, Pilar
+Schillaci, Joseph R.
+Schmidt, Earl
+Schultz, Mary Lina
+Scofield, D.G.
+Scorza, Philip
+Scott, Harrison
+Scott, John L.
+Scott, Randolph
+Scott, Thomas A.
+Scott, Walter
+SCV Man & Woman of the Year
+SCV Sheriff Captains
+Sedgwick, Bill
+Seitz, Richard
+Sellen, Dennis Lee Jr.
+Serlin, Lea
+Serra, Junípero
+Sevanian, Diana
+Shapiro, Susan
+Shimmin, Irvin A.
+Shuman, Mike
+Sierad, Stan
+Signoretti, Rick
+Simpson, Jack
+Sims, Cecil H.
+Sitzman Cook, Barbara
+Sitzman, Charles E.
+Slocum, Richard Patrick
+Smart, Ozal R.
+Smelser, Lee
+Smith, Charles C. Jr.
+Smith, Christy
+Smith, Sam (Blacksmith)
+Smith, Will
+Smyth, Cameron
+Smyth, Clyde
+Sohm, Hayden
+Solano, Alfred
+Solomon, Suzan
+Spierer, Robert J.
+Sproul, Myron
+St. Louis, Bruce W.
+Staley, Joan
+Stansell, Ann
+Stark, Steve
+Stears, David Ian
+Steele, Bob
+Steelman, Dolores
+Stephens, Rick
+Stevens, Judy Borden
+Stevenson, Jeff
+Stewart, Lyman
+Stewart, Peggy
+Stiles, George
+Stone, Cliffie
+Stone, Mitch
+Storli, Linda
+Strange, Ron
+Strauss, Laurence
+Striplin, Ken
+Stroh, Eric
+Suraco Family of Bouquet Cyn
+Suter, Jake William
+Swall Family
+Swall, Albert
+Swall, Jake
+Swallow, John
+Swanson, Kristy
+Szabo, Suzie
+Tanner, Les
+Tapia Family of Castaic
+Tarantino, Quentin
+Taylor, "Tiny Ron"
+Tcherkassky, Michael & Paulette
+Teague, Ruth
+Templeton, Larry
+Terrell, John J.
+Texeria, Gus
+Thatcher, A.B.
+Thibaudeau Family
+Thirkettle, Jim
+Thomas, Albert Edward
+Thompson, Sam
+Thornhill, Gary
+Thornton, Larry
+Tisdale, Ashley
+Todd-Eckard, Dean Glen Jr.
+Todd, Margaret
+Tolfree Family
+Toney, Ed
+Towsley, Darius
+Trejo, Joe
+Tretta, Mia
+Triem, Judy
+Trosper, Jennifer
+Trueblood Family
+Trueblood-Davis, Bobbie
+Trueblood, Fred III
+Trueblood, Fred Sr.
+Truger, Denny H.
+Truman, Ben C.
+Tucker, Simeon
+Turnbull, Gary Allen
+Turner, Frank & Lee
+Twinning, Jack Wright
+Valenzuela, John
+Van Hook, Dianne G.
+Van Valkenburgh, Richard F.
+Vasquez, Tiburcio
+Veloz, David
+Veloz, Tom
+Veluzat Family
+Veluzat, Rene
+Ventress, Jim
+Verbiesen, Arnie
+Vereen, Shane
+Vernon, Tom
+Vibe, Andrea
+Villaseñor, Pamela
+Villegas, Ernie
+Von Buelow, Michael
+Vradenburg, Diane
+Vukovich, Billy
+Walk, Bob
+Walker Family of Placerita
+Walker, Paul
+Wallace, Matt
+Walper, Andree
+Wanamaker, Marc
+Ward, Baxter
+Ward, John Amos
+Ward, Leonard
+Ware, Bob
+Warford, Robert & Pat
+Warholic, Larry
+Warmuth Family
+Watson, Dan
+Wayman, Joyce
+Wayne, John
+Weaver, Dennis
+Webber, Judy
+Weber, Bob
+Weireter, Hillary
+Weitzel, Barbara Cash
+Welch, Harry
+Wesski, Hans
+Weste, Laurene
+Westover, Winifred (Hart)
+Wheeler, Jeff
+Whilton, Emery M.
+Whisler, Robert L.
+White, Bill (CHS)
+White, Dan
+White, Manuel
+White, Mimi
+Whitley, David
+Whitmore, Frank Pike
+Whitney, Frances
+Whyte, Tim
+Wicks, Randy
+Wiley, Henry C.
+Wilk, Scott
+Wilke, Bob
+Wilkings, Marshall
+Willard, Mike
+Williams, Tex
+Williams, Warren E.
+Williamson, Robert S.
+Wilson, Pete
+Wilson, Robert Michael
+Winger, Marc
+Wingfield, Garry
+Wingo, Dorcey
+Winkler Family of Romero Canyon
+Woelke, Don
+Wolfskill, William
+Wood, Fielding S.
+Woods, Pat
+Woodside, Pamm
+Worden-Roberts, Connie
+Worden, Leon
+Worth, Daniel
+Wright, Cathie
+Wright, Chuck
+Wright, John Ellsworth
+Wullschleger, Kenneth
+Wütherich, Rolf
+Yanez Family of Newhall
+Yant, Milford
+Yocum, Donna
+Youle, William E.
+Young, Koren
+Young, Loretta
+Yurosek, Mike & Sue
+Zaring, Billy
+Zima, John
+Zimmer, Steven

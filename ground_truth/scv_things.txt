@@ -1,0 +1,652 @@
+# SCV canonical THINGS — sourced from https://scvhistory.wpengine.com/things/
+# Mixed bucket — orgs, buildings, events, films, schools, topics.
+# The seeder will sub-classify into PLACE/ORG/EVENT/TOPIC via regex on
+# suffix patterns. Add new names below. Lines starting with # ignored.
+
+General Interest
+Oral Histories
+Santa Clarita War Memorial
+Tataviam Culture
+Editor's Choice
+Bibliography
+Errata
+Timeline
+Coming Events
+Film
+Indexes
+1910 - 'Ramona' (Griffith)
+1916 - "The Apostle of Vengeance"
+1917 - 'Straight Shooting'
+1923 - 'The Pilgrim'
+1923 - 'Three Jumps Ahead'
+1924 - 'The Iron Horse'
+1925 - 'Tumbleweeds'
+1928 - 'Isle of Lost Men'
+1928 - 'Ramona' (Carewe)
+1929 - 'The Last Roundup'
+1936 - 'Ramona' (Loretta Young)
+1939 - 'Stagecoach'
+1941 - 'Shepherd of the Hills'
+1951 - 'Flame of Araby'
+1955 - 'Gunsmoke'
+1955 - 'Life/Legend of Wyatt Earp'
+1956 - '77th Bengal Lancers'
+1957 - 'Maverick'
+1957 - 'Oklahoman'
+1957 - 'Old Yeller'
+1958 - 'Man of the West'
+1960 - 'Gunfighters of Abilene'
+1966 - 'Fireball 500'
+1966 - Star Trek (TOS)
+1968 - 'Arizona Bushwhackers'
+1976 - 'Quincy, M.E.'
+1979 - 'Dukes of Hazzard'
+1988 - 'Big Top Pee Wee'
+1994 - 'Natural Born Killers'
+1996 - 'High Incident'
+1999 - 'Wild Wild West'
+2005 - 'Weeds'
+2012 - 'Django Unchained'
+2012 - 'Veep'
+2016 - 'Westworld'
+2017 - 'Atypical'
+4-H Clubs
+4th of July 1910s
+4th of July 1932
+4th of July 1968
+4th of July 1977
+4th of July 1980
+4th of July 1988
+4th of July 1996
+4th of July 1997
+4th of July 1999
+4th of July 2005
+4th of July 2015
+9/11
+A&W Root Beer (Newhall)
+Ace Cain's Place
+Acton '49er Saloon
+Acton Elementary School
+Acton Hotel
+Acton Rehab/CCC Camp
+Acton Rooster
+Acton Town Council
+Acton-Agua Dulce Unified School District
+Aerospace
+Agencies / Organizations
+Agriculture
+Aircraft Down
+American Beauty Homes
+American Cancer Society-SCV
+American Theatre/Legion Post 507
+Andrew's Station
+Andy Gump
+Andy Jauregui Ranch
+Antelope Valley Indian Museum
+Anthropology
+Arbor/Earth Day
+Archaeology
+Arroyo Seco Junior High
+Auto Camps/Touring
+Backwoods Inn
+Bamboo Cafe
+Barnsdall/Sun/Sunray Oil Company
+Begonias Lane Park
+Bermite Cleanup
+Bermite Powder Company
+Bermite Predecessors
+Betty Pember Collection
+Big Oaks Lodge
+Bill Hart Jr. Collection
+Biotech
+Blue Cloud Movie Ranch
+Blum Ranch
+Bonelli House
+Bonelli Stadium
+Boskovich Farms
+Bouquet Dam/Reservoir
+Bowers Cave
+Bowman High School
+Bowman High School Yearbooks
+Bridge to Home
+Bridgeport Park
+Brookfield Homes
+Brunner 1940 History
+BSA (Boy Scouts)
+Buckweed Fire 2007
+Bunny Luv Carrots
+Business
+C.A. Rasmussen Inc.
+CalArts: Early
+Calif Dept of Water Resources
+Calif. Star/Pacific Coast Oil
+California High-Speed Rail Authority
+California Highway Patrol
+California Institute of the Arts
+California Rangers
+California State Parks
+California State University, Northridge
+California Statehood
+Callahan's Old West
+Campton's Store
+Camulos Cemetery
+Canyon Country Community Center
+Canyon County Formation (1976/78)
+Canyon High School
+Canyon High Yearbooks
+Canyon Theatre Guild
+Carousel Ranch
+Cassandra Skaggs Collection
+Castac Lake (Lebec)
+Castaic Dam/Reservoir
+Castaic High School
+Castaic Lake Water Agency
+Castaic Range War
+Castaic Saddle Club
+Castaic Union School District
+Cemex
+Centennial at Tejon Ranch
+Central Park
+Charity Cookbooks
+Charles E. Sitzman Collection
+Chesebrough Park
+Chi Chi's Pizza
+Child & Family Center
+Chinese Exclusion Laws
+Chinese Historical Society
+Chiquita Canyon Landfill
+Christmas/Holiday Parades
+Church of the Nazarene
+Citation Homes
+City Arts
+City Elections
+City Hall
+City Maps
+City of Santa Clarita
+City Parks
+City Publications
+City Sports Complex/Centre
+Clampitt Fire 1970
+Clanton Block
+COC Athletics
+COC Canyon Call
+COC Football
+COC Foundation
+COC Reports & Publications
+COC Yearbooks
+COC: Early Years
+College of the Canyons
+Colombo Lilac Farm
+Confusion Hill
+Copper Fire 2002
+Cordova Ranch (Castaic)
+Corral Drive-in Theatre
+Covid-19 Pandemic
+Cowboy Festival
+Crime Blotter
+Crowland
+Curtis Sand & Gravel
+Dairy Farms
+Daughters of the American Revolution
+David March Park
+Del Valle Company
+Democratic Party/Clubs
+Denny's Restaurants
+Disney Golden Oak Ranch
+Doris Trester Patrick Collection
+Duane R. Harte Park
+Dyer/Warmuth Honey House
+E Clampus Vitus
+Eagle Scout Projects
+Early California
+Early Los Angeles
+Earthquake Faults
+Earthquakes
+Eastern California Museum
+Edison House
+Egg Plantation Restaurant
+Eggland
+Elks Lodge
+Elsmere Landfill Battle (1980s/90s)
+Emblem Elementary School
+Environmental Mitigation
+Estancia de S.F. Xavier
+Eternal Valley Cemetery
+Expeditions 1840s/50s
+Farming/Ranching
+Farrar & Trefts
+Fat Jones Ranch
+Felton School (Mentryville)
+Fernandeño-Tataviam Band of Mission Indians
+Fillmore-Piru Citrus Assn.
+Fillmore-Santa Paula Flood Damage
+Fire Fighting
+First Presbyterian Church, Newhall
+Florafaunium
+Fossils
+Foursquare Church (Quigley Cyn)
+Fourth of July Celebration
+Frew Blacksmith Shop
+Friendly Valley
+Friends of Castaic Lake
+Friends of Hart Park
+Friends of Mentryville
+Friends of the Libraries
+Frontier Days
+Fruit Drying
+Gallion Collection
+Geology / Paleontology
+Gibbon Conservation Center
+Gillibrand
+Gold: Lopez Discovery
+Gold: Other
+Gold: San Feliciano (Felicia)
+Golden Oak Adult School
+Golden Spike 100th (1976)
+Golden Spike at Lang
+Golden Valley High School
+Golden Valley High Yearbooks
+Good Roads
+Gorman Hotel & Motel
+Governor Mine
+Grace Baptist Church
+Great Flood of 1938
+Green Pastures Dairy
+Green Thumb Nursery
+Gulley/Swall Store/Hap-A-Lan
+Habitat/Homes for Heroes
+HABS
+Haddad and Butler
+Halafax/Bermite/Whittaker
+Hardison & Stewart
+Harry Carey/Tesoro Adobe
+Hart High 1940s-1960s
+Hart High 1970s-1980s
+Hart High 1974 Time Capsule
+Hart High 1990s-2000s
+Hart High School
+Hart High Yearbooks
+Hart of the West Powwow
+Healthcare
+Henry Mayo Newhall Foundation
+Henry Mayo Newhall Hospital
+Henry Mayo Newhall Hospital Foundation
+High School Football Program Books
+Highlands Elementary School
+Historic Landmarks
+Historical Preservation
+Hog Farms
+Honby/Canyon Springs School
+HR Textron/Woodward HRT
+Huntsinger Turkey Ranch
+Indian Dunes
+Indian Laws
+Jaycees / JCI
+Jo Anne Darcy Collection
+John Nichols Collection
+Johnson Park (Mentryville)
+Judiciary
+K-Mart
+KBET/KHTS Radio
+Keysor-Century Corp
+Kingsburry House
+Kiwanis of Newhall-Saugus
+Knights of Columbus
+L.A. County Fire Department
+L.A. County Parks & Rec
+L.A. County Sheriff's Department
+La Cañada Pottery (Newhall)
+La Puerta
+LADWP/Bureau of Water Works & Supply
+Landslides
+Lang Station
+LARC Ranch
+Law Enforcement/Military
+Le Chêne/Oaks
+Learning Post High School
+Learning Post HS Yearbooks
+Lebec Hotel
+Lebeck Oak
+Lechler Museum (Piru)
+Lennar
+Lions Club
+Literature
+Little White School
+Live Oak Manor Cacti Gardens
+Lobby Cards
+Lockheed
+Lockheed-Rye Canyon
+Lombardi Ranch
+Lopez Adobe
+Los Angeles Aqueduct
+Los Angeles Star (Newspaper)
+Lost History
+Lyon's Station
+Lyons/Dockweiler Extension
+Macedonia Church (Val Verde)
+Magic Fire 2007
+Magic Mountain (Theme Park)
+Masonic Organizations
+Master's University, The
+Meadowlark Elementary School
+Meadows Elementary School
+Melody Ranch Fire 1962
+Metrolink
+Mexican-American War 1846/48
+Michael Hoefflin Foundation
+Mining
+Mining Reports
+Mint Canyon School
+Mint/Canyon Country Chamber of Commerce
+Mitchell Adobe
+Mitchell Cemetery
+Mogul Locomotive No. 1629
+Moose Lodge
+Morris Newspaper Corp.
+Movie Theaters
+MRCA
+Music Videos
+Mustang Drive-In Theatre
+National Park Service
+Native Material Culture
+Natural History Museum of L.A. County
+Nature
+Needham Ranch Development
+New Home Communities
+Newhall 20-30 Club
+Newhall Auto Tunnel
+Newhall Bowl
+Newhall Community Center
+Newhall County Water District
+Newhall Elementary School
+Newhall Hardware
+Newhall Ice
+Newhall Incident
+Newhall Land/FivePoint
+Newhall Post Office
+Newhall Ranch House
+Newhall Redevelopment
+Newhall Refinery
+Newhall Roundabout
+Newhall School Auditorium
+Newhall School District
+Newhall School: 1940s-1950s
+Newhall School: 1st & 2nd Buildings
+Newhall School: 3rd Building
+Newhall Train Station
+Newhall Woman's Club
+Newhall-Saugus Airport
+Nike Bases/Missile Defense
+North Oaks
+Northridge Earthquake (1994)
+Northrop Grumman
+Oakmont Senior Living
+Oil Well Locations
+Oil-Misc.
+Old Orchard Elementary School
+Old Orchard Park
+Old Orchard Shopping Center
+Old Town Newhall Association
+Old Town Newhall Gazette
+Olive View
+OLPH Catholic Church
+Open Space
+Optimist Foundation
+Ornithology
+Overland Mail
+Pacific Telephone
+Painted Turtle Camp
+Pardee House
+Park Newhall Apartments
+Patents / Inventions
+Peachland Elementary School
+Perkins Court (6th Street)
+Philadelphia & California Petroleum Co.
+Philately
+Phillips Ranch
+Pico Canyon Earthquake (1893)
+Pico Machine Shop
+Pico No. 4 Oil Well
+Pinecrest School-Valencia
+Pioneer Oil Refinery
+Piru Mansion
+Place Names
+Placerita Canyon Nature Center
+Placerita Junior High School
+Placerita Junior High Yearbooks
+Placerita Oil Field
+Plane Crash 1-12-1937
+Plane Crash 12-27-1936
+Plane Crash 4-9-1937
+Plaza Theatre
+Powerhouse Fire 2013
+Princess Homes
+Prohibition
+Public Health
+Public Works (City)
+Pukúu Cultural Community Services
+Puritan Mine
+Pyramid Lake
+Questers
+R.C. Becker & Son
+Ramona Novel
+Ranch Fire 2007
+Ranch House Inn
+Rancho Camulos Museum
+Randy Wicks Collection
+Reminiscences
+Republican Party/Clubs
+Ridge Route Communities Museum
+Ridge Route Road
+Rio Norte Junior High
+Rio Vista Elementary
+River Village
+Roads/Transportation
+Robotics
+Rock Inn (Lake Hughes)
+Rosedell Elementary
+Rotary Clubs
+Rowher Flat
+Ruiz-Perea Cemetery
+Ruiz-Suraco Adobe
+Salvation Army SCV
+Samuel Dixon Family Health Ctrs
+San Andreas Fault
+San Fernando (Train) Tunnel
+San Fernando Band of Mission Indians
+San Fernando Mission
+Sandberg's Summit Hotel
+Santa Clara River
+Santa Clarita City Council Minutes
+Santa Clarita Cityhood
+Santa Clarita History Center
+Santa Clarita Library
+Santa Clarita Magazine
+Santa Clarita National Bank
+Santa Clarita Oak Conservancy
+Santa Clarita Repertory Theatre
+Santa Clarita United Methodist Church (Saugus)
+Santa Clarita Woodlands
+Santa Paula Oil Museum
+Saugus Cafe
+Saugus Community Club
+Saugus Depot Move (1980)
+Saugus Drunk Farm
+Saugus Elementary School
+Saugus High School
+Saugus High School Shooting 2019
+Saugus High Yearbooks
+Saugus Post Office
+Saugus Rodeo (Baker-Gibson-Bonelli)
+Saugus Speedway / Bonelli Stadium
+Saugus Speedway Programs
+Saugus Train Robbery (1929)
+Saugus Train Station
+Saugus Union School District
+Saved History
+Saxonia Park
+Science
+SCOPE
+SCV Antique Auto Club
+SCV Arts Council
+SCV Athletic Assn
+SCV BG Club Fundraisers
+SCV Boys & Girls Club
+SCV Chamber of Commerce
+SCV Economic Development Corp.
+SCV Fire Stations
+SCV Historical Society
+SCV Historical Society Collection
+SCV Man/Woman of Year
+SCV Sanitation District
+SCV Senior Center (Committee on Aging)
+SCV Sheriff's Station
+SCV Water Agency
+SCV Youth Orchestra
+SCVTV
+Shadowbox Studios
+Shambala Preserve
+Sharon Divis Collection
+Sherie Gustafson Collection
+Sierra Pelona Rock Club
+Sierra Vista Junior High
+Signal Newspaper
+Signal Tree, Pico Canyon
+Significant Ecological Areas
+Silver King Mine
+Simpson House Movers
+Skyblue Mesa Elementary
+Skyline Ranch
+Snow Storm January 1962
+Solemint Store
+Soroptimist International
+Southern California Edison
+Southern Hotel
+Southern Pacific Railroad
+Space Exploration
+Space Ordnance Systems
+Spanish Missions
+Sports
+Spring-Pole Oil Drilling
+St. Andrew's Abbey
+St. Clare Catholic Church
+St. Francis 'Tombstone'
+St. Francis Dam Disaster
+St. Francis Dam Monument
+St. Francis Dam: 90th (2018)
+St. Francis Flood Damage
+St. Francis: Kemp/Blue Cut
+St. Francis: Power House-1
+St. Francis: Power House-2
+St. Kateri Tekakwitha Church
+Stagecoach Lines
+Standard Oil Bulletin
+Standard Oil of California
+Station Fire 2009
+Sterling Borax Mine
+Strange Tales
+Sulphur Springs Elementary School
+Sulphur Springs School District
+Sutters Pointe
+Swall Hotel/Newhall Pharmacy
+Sylmar Earthquake (1971)
+Tapia Ranch
+Ted Lamkin Collection
+Tejon Earthquake (1857)
+Tejon Indian Tribe
+Tejon Ranch Company
+Tesoro del Valle
+Tesoro Highlands
+Thatcher Glass
+Thousand Trails/Soledad Sands
+Threatened/Endangered Species
+Three Oaks
+Time Capsules
+Tip's Restaurants
+Tolfree's Saugus Eating House
+Trammell Crow Company
+Treaty of Guadalupe Hidalgo
+Trem Carr Productions
+Trem Carr Ranch
+Trestles
+Triple A Ranch (Vasquez Rocks)
+Tucker Ranch
+TV Series: Legacy
+TV Series: Newsmaker
+TV Series: Philip Scorza's Points of Interest
+Twilight Zone: The Movie
+U.S. Highway 99
+U.S. Land Act of 1851
+UCLA Film Archive
+Unarmored Threespine Stickleback
+University Center at COC
+University of California
+US Borax
+US Camel Corps
+USDA Forest Service
+Val Verde 1939 Time Capsule
+Val Verde CAC
+Val Verde Civic Association
+Valencia High School
+Valencia High Yearbooks
+Valencia Hills
+Valencia Industrial Center
+Valencia National Bank
+Valencia Town Center
+Valencia United Methodist Church
+Valencia Water Company
+Valley Federal Savings
+Valley Industry Assn (VIA)
+Vasquez 'Bengal Lancers' Fort
+Vasquez High School
+Vasquez Rocks County Park
+Veterans Historical Plaza
+Veterans History Project
+Veterans Memorial Committee
+View From Valencia
+Village Church
+Vista Valencia Golf Course
+Visual Art
+Viticulture
+Walk of Western Stars
+Walker Cabin(s)
+Walt Disney Company
+Waterworks District 36
+Watson Photo Archive
+Way Station Coffee Shop
+Wayside/Pitchess/NCCF
+West Ranch High School
+West Ranch High School Yearbooks
+Wildwood Sanatorium
+Wiley Canyon Elementary School
+William S. Hart as Author
+William S. Hart in Film
+William S. Hart in Retirement
+William S. Hart Mansion/Museum
+William S. Hart Park
+William S. Hart: World War I
+Wm. S. Hart High School District
+Woolsey Fire 2018
+Worship
+Ye Olde Courthouse
+Zonta
+Saugus Rodeo 1926
+Saugus Rodeo 1927
+Saugus Rodeo 1928
+Saugus Rodeo 1929
+Saugus Rodeo 1930
+Saugus Rodeo 1931
+Saugus Rodeo 1932
+Saugus Rodeo 1933
+Saugus Rodeo 1934
+Saugus Rodeo 1935
+Saugus Rodeo 1937
+Saugus Rodeo 1938
+Saugus Rodeo 1940
+Saugus Rodeo 1941
+Saugus Rodeo 1942
+Saugus Rodeo 1945
+Saugus Rodeo 1946
+Saugus Rodeo 1948
+Saugus Rodeo 1953
+Saugus Rodeo 1960

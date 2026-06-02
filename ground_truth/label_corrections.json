@@ -1,0 +1,131 @@
+{
+  "corrections": [
+    {
+      "raw": "Felton School",
+      "from": "person",
+      "to": "organization",
+      "reason": "indicator:organization",
+      "confidence": "high"
+    },
+    {
+      "raw": "Great Saugus Train Robbery",
+      "from": "person",
+      "to": "event",
+      "reason": "indicator:event",
+      "confidence": "high"
+    },
+    {
+      "raw": "Felton Schoolhouse",
+      "from": "person",
+      "to": "organization",
+      "reason": "indicator:organization",
+      "confidence": "high"
+    },
+    {
+      "raw": "Santa Clarita Valley Water Agency",
+      "from": "location",
+      "to": "organization",
+      "reason": "indicator:organization",
+      "confidence": "high"
+    },
+    {
+      "raw": "Honby School",
+      "from": "person",
+      "to": "organization",
+      "reason": "indicator:organization",
+      "confidence": "high"
+    },
+    {
+      "raw": "Sterling Borax Works",
+      "from": "person",
+      "to": "organization",
+      "reason": "indicator:organization",
+      "confidence": "high"
+    },
+    {
+      "raw": "Canyon Theatre Guild",
+      "from": "organization",
+      "to": "location",
+      "reason": "indicator:location",
+      "confidence": "high"
+    },
+    {
+      "raw": "The Turkey War",
+      "from": "person",
+      "to": "event",
+      "reason": "indicator:event",
+      "confidence": "high"
+    },
+    {
+      "raw": "Fort Tejon Earthquake",
+      "from": "location",
+      "to": "event",
+      "reason": "indicator:event",
+      "confidence": "high"
+    },
+    {
+      "raw": "The Great Train Robbery",
+      "from": "person",
+      "to": "event",
+      "reason": "indicator:event",
+      "confidence": "high"
+    },
+    {
+      "raw": "San Francisquito School",
+      "from": "person",
+      "to": "organization",
+      "reason": "indicator:organization",
+      "confidence": "high"
+    },
+    {
+      "raw": "Soledad School",
+      "from": "person",
+      "to": "organization",
+      "reason": "indicator:organization",
+      "confidence": "high"
+    },
+    {
+      "raw": "Saugus School",
+      "from": "person",
+      "to": "organization",
+      "reason": "indicator:organization",
+      "confidence": "high"
+    },
+    {
+      "raw": "Kern County Earthquake",
+      "from": "person",
+      "to": "event",
+      "reason": "indicator:event",
+      "confidence": "high"
+    },
+    {
+      "raw": "1962 Melody Ranch Fire",
+      "from": "location",
+      "to": "event",
+      "reason": "indicator:event",
+      "confidence": "high"
+    },
+    {
+      "raw": "Agua Dulce School",
+      "from": "person",
+      "to": "organization",
+      "reason": "indicator:organization",
+      "confidence": "high"
+    },
+    {
+      "raw": "St. Francis Dam Disaster Tour",
+      "from": "location",
+      "to": "event",
+      "reason": "indicator:event",
+      "confidence": "high"
+    },
+    {
+      "raw": "Pacific Telephone Business Office",
+      "from": "person",
+      "to": "organization",
+      "reason": "indicator:organization",
+      "confidence": "high"
+    }
+  ],
+  "review": []
+}
