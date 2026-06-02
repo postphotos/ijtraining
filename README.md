@@ -1,6 +1,6 @@
 # ijtraining
 
-GLiNER2 NER training for the SCV History project. Self-contained — no dependency on the main `indiejones` repo.
+GLiNER2 NER training for the ij project. Self-contained — no dependency on the main `indiejones` repo.
 
 ## What's here
 
