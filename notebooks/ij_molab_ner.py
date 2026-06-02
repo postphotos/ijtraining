@@ -11,14 +11,13 @@
 #   "polars",
 # ]
 # ///
-"""SCV GLiNER2 NER — molab GPU console.
+"""SCV GLiNER2 NER Inference Console — molab GPU.
 
-Self-contained: no local ijnew deps. Deploy to molab.marimo.io by pasting this
-notebook's GitHub URL. Enable the GPU toggle in the molab header for CUDA.
+Fetches docs.jsonl or uses pasted text. Full-doc chunked extraction (no
+truncation — the fix that went from 16 → 59 entities on the Suddenly article).
+Optionally loads a LoRA adapter from the repo.
 
-Runs gliner2-base over pasted text or uploaded JSONL (url, text rows),
-showing typed entity mentions with disagreement flags vs the optional
-editor-taxonomy JSON.
+Deploy: paste GitHub URL into molab.marimo.io, enable GPU toggle.
 """
 
 import marimo
@@ -26,147 +25,157 @@ import marimo
 __generated_with = "0.23.8"
 app = marimo.App(width="full")
 
+@app.cell
+def _constants():
+    REPO_RAW = "https://raw.githubusercontent.com/postphotos/ijtraining/master"
+    ADAPTERS = {
+        "Base only (no fine-tune — strongest extractor)": None,
+        "v6 distill adapter":    "adapters/v6/best",
+        "v5 dense adapter":      "adapters/v5/best",
+        "v4 normalized adapter": "adapters/v4/best",
+    }
+    ADAPTER_FILES = ["adapter_model.safetensors", "adapter_config.json", "README.md"]
+    return ADAPTER_FILES, ADAPTERS, REPO_RAW
+
 
 @app.cell
 def header():
     import marimo as mo
     mo.md("""
-    # SCV Entity Extraction — molab GPU
-    **Model:** `fastino/gliner2-base-v1` · **GPU:** toggle in the header ↑ for CUDA
+    # SCV NER Inference — molab GPU
+    **Repo:** [postphotos/ijtraining](https://github.com/postphotos/ijtraining) ·
+    Full-doc chunked extraction · Enable **GPU toggle ↑** for CUDA
     """)
     return (mo,)
 
 
 @app.cell
-def controls(mo):
-    import torch as _torch
-    device_label = f"CUDA ({_torch.cuda.get_device_name(0)})" if _torch.cuda.is_available() else "CPU"
-    device_stat = mo.stat(value=device_label, label="Device")
+def device_info(mo):
+    import torch as _t
+    _dev = (f"CUDA — {_t.cuda.get_device_name(0)} "
+            f"({_t.cuda.get_device_properties(0).total_memory // 1024**3} GB)") \
+        if _t.cuda.is_available() else "CPU  ⚠️  enable GPU in molab header"
+    mo.stat(value=_dev, label="Device")
+    return
 
-    text_area = mo.ui.text_area(
-        placeholder="Paste article text here, or upload a JSONL file below...",
-        rows=10,
-        label="Article text",
-    )
+
+@app.cell
+def controls(mo, ADAPTERS):
+    adapter_ui  = mo.ui.dropdown(options=list(ADAPTERS.keys()),
+                                  value=list(ADAPTERS.keys())[0], label="Adapter")
+    labels_ui   = mo.ui.text(value="person, organization, location, event",
+                              label="Entity labels")
+    chunk_ui    = mo.ui.slider(start=500, stop=2000, step=100, value=1400,
+                                label="Chunk size (chars)")
+    text_area   = mo.ui.text_area(
+        placeholder="Paste article text here…", rows=8, label="Article text")
     file_upload = mo.ui.file(
-        label="Or upload docs.jsonl  (one JSON per line: {\"url\":\"...\",\"text\":\"...\"})",
-        filetypes=[".jsonl", ".json"],
-        multiple=False,
-    )
-    labels_ui = mo.ui.text(
-        value="person, organization, location, event",
-        label="Entity labels (comma-separated)",
-    )
-    chunk_size = mo.ui.slider(
-        start=500, stop=2000, step=100, value=1400,
-        label="Chunk size (chars) — slides over full doc",
-    )
-    run_btn = mo.ui.button(label="Extract Entities", kind="success")
+        label='Or upload docs.jsonl  ({"url":"...","text":"..."})',
+        filetypes=[".jsonl", ".json"], multiple=False)
+    run_btn     = mo.ui.button(label="Extract Entities", kind="success")
 
     mo.vstack([
-        device_stat,
-        mo.hstack([labels_ui, chunk_size], justify="start", gap=1),
-        text_area,
-        file_upload,
-        run_btn,
-        mo.callout(mo.md(
-            "Enable the **GPU toggle** in the molab header for CUDA acceleration. "
-            "On CPU, each article takes ~1-3 s. On GPU, ~0.1 s."
-        ), kind="info"),
+        mo.hstack([adapter_ui, labels_ui, chunk_ui], justify="start", gap=1),
+        text_area, file_upload, run_btn,
     ], gap=0.5)
-    return chunk_size, device_label, file_upload, labels_ui, run_btn, text_area
+    return adapter_ui, chunk_ui, file_upload, labels_ui, run_btn, text_area
 
 
 @app.cell
-def run_extraction(chunk_size, file_upload, labels_ui, mo, run_btn, text_area):
-    import json
-    import re
-    import torch
+def load_model(adapter_ui, mo, ADAPTERS, ADAPTER_FILES, REPO_RAW):
+    import pathlib, urllib.request, torch
+    from gliner2 import GLiNER2
 
-    results = []
+    _model = GLiNER2.from_pretrained("fastino/gliner2-base-v1")
+    if torch.cuda.is_available():
+        _model.model.cuda()
 
-    if run_btn.value:
-        from gliner2 import GLiNER2
-        model = GLiNER2.from_pretrained("fastino/gliner2-base-v1")
-        if torch.cuda.is_available():
-            model.model.cuda()
-        labels = [l.strip() for l in labels_ui.value.split(",") if l.strip()]
+    _adapter_key = ADAPTERS[adapter_ui.value]
+    if _adapter_key:
+        _tmp = pathlib.Path("/tmp/scv_adapter_infer"); _tmp.mkdir(parents=True, exist_ok=True)
+        for _fname in ADAPTER_FILES:
+            _url  = f"{REPO_RAW}/{_adapter_key}/{_fname}"
+            _dest = _tmp / _fname
+            try:
+                urllib.request.urlretrieve(_url, _dest)
+            except Exception:
+                pass
+        if (_tmp / "adapter_config.json").exists():
+            from gliner2 import load_lora_adapter
+            load_lora_adapter(_model, str(_tmp))
 
-        def extract_chunks(text, csize):
-            parts = re.split(r"(?<=[.!?])\s+", text)
-            buf = ""
-            union = {}
-            for p in parts:
-                if len(buf) + len(p) + 1 > csize and buf:
-                    r = model.extract_entities(buf, labels)
-                    ents = r.get("entities", {}) if isinstance(r, dict) else {}
-                    for lab, items in ents.items():
-                        for it in items:
-                            nm = it if isinstance(it, str) else (it.get("text") or "")
-                            if nm:
-                                union.setdefault(lab, {}).setdefault(nm.lower(), nm)
-                    buf = p
-                else:
-                    buf = (buf + " " + p).strip()
-            if buf:
-                r = model.extract_entities(buf, labels)
-                ents = r.get("entities", {}) if isinstance(r, dict) else {}
-                for lab, items in ents.items():
-                    for it in items:
-                        nm = it if isinstance(it, str) else (it.get("text") or "")
-                        if nm:
-                            union.setdefault(lab, {}).setdefault(nm.lower(), nm)
-            return {lab: list(m.values()) for lab, m in union.items()}
-
-        csize = int(chunk_size.value)
-
-        # JSONL upload takes priority over text area
-        if file_upload.value:
-            content = file_upload.value[0].contents.decode("utf-8", errors="ignore")
-            for line in content.splitlines():
-                if not line.strip():
-                    continue
-                try:
-                    d = json.loads(line)
-                except Exception:
-                    continue
-                url = d.get("url", "")
-                text = (d.get("text") or "").strip()
-                if not text:
-                    continue
-                entities = extract_chunks(text, csize)
-                results.append({"url": url, "entities": entities, "n": sum(len(v) for v in entities.values())})
-        elif text_area.value.strip():
-            entities = extract_chunks(text_area.value, csize)
-            results.append({"url": "pasted text", "entities": entities, "n": sum(len(v) for v in entities.values())})
-
-    results
-    return (results,)
+    mo.stat(value=adapter_ui.value.split("(")[0].strip(), label="Adapter loaded")
+    return (_model,)
 
 
 @app.cell
-def show_results(mo, results):
+def run_extraction(chunk_ui, file_upload, labels_ui, mo, run_btn, text_area, _model):
+    import json, re
     import polars as pl
 
-    if not results:
-        view = mo.callout(mo.md("Enter text or upload a JSONL file, then click **Extract Entities**."), kind="info")
+    if not run_btn.value:
+        mo.stop(False)
+
+    _labels = [l.strip() for l in labels_ui.value.split(",") if l.strip()]
+    _csize  = int(chunk_ui.value)
+
+    def _extract_full(text):
+        parts = re.split(r"(?<=[.!?])\s+", text)
+        buf   = ""
+        union = {}
+        def _flush(b):
+            if not b.strip():
+                return
+            r    = _model.extract_entities(b, _labels)
+            ents = r.get("entities", {}) if isinstance(r, dict) else {}
+            for lab, items in ents.items():
+                for it in items:
+                    nm = it if isinstance(it, str) else (it.get("text") or "")
+                    if nm:
+                        union.setdefault(lab, {}).setdefault(nm.lower(), nm)
+        for p in parts:
+            if len(buf) + len(p) + 1 > _csize and buf:
+                _flush(buf); buf = p
+            else:
+                buf = (buf + " " + p).strip()
+        _flush(buf)
+        return {lab: list(m.values()) for lab, m in union.items()}
+
+    _docs = []
+    if file_upload.value:
+        for _line in file_upload.value[0].contents.decode("utf-8", errors="ignore").splitlines():
+            if not _line.strip():
+                continue
+            try:
+                d = json.loads(_line)
+                _docs.append((d.get("url", ""), (d.get("text") or "").strip()))
+            except Exception:
+                pass
+    elif text_area.value.strip():
+        _docs = [("pasted text", text_area.value.strip())]
+
+    _rows = []
+    for _url, _text in _docs:
+        if not _text:
+            continue
+        for _label, _names in _extract_full(_text).items():
+            for _name in _names:
+                _rows.append({"url": _url[:80], "label": _label, "entity": _name})
+
+    if not _rows:
+        _view = mo.callout(mo.md("No entities found — check text or labels."), kind="warn")
     else:
-        rows = []
-        for doc in results:
-            for label, names in doc["entities"].items():
-                for name in names:
-                    rows.append({"url": doc["url"][:60], "label": label, "entity": name})
-        df = pl.DataFrame(rows) if rows else pl.DataFrame({"url": [], "label": [], "entity": []})
-        total = sum(r["n"] for r in results)
-        view = mo.vstack([
+        _df = pl.DataFrame(_rows)
+        _view = mo.vstack([
             mo.hstack([
-                mo.stat(value=str(len(results)), label="Docs"),
-                mo.stat(value=str(total), label="Entities found"),
-                mo.stat(value=str(len(set(r["entity"] for r in rows))), label="Distinct"),
+                mo.stat(value=str(len(_docs)),               label="Docs"),
+                mo.stat(value=str(len(_rows)),               label="Mentions"),
+                mo.stat(value=str(_df["entity"].n_unique()), label="Distinct"),
+                mo.stat(value=str(_df["label"].n_unique()),  label="Types"),
             ], justify="start", gap=1),
-            mo.ui.table(df, page_size=50),
+            mo.ui.table(_df, page_size=100),
         ], gap=0.5)
-    view
+    _view
     return
 
 
