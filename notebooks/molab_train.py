@@ -26,9 +26,9 @@ app = marimo.App(width="full")
 def _constants():
     REPO_RAW = "https://raw.githubusercontent.com/postphotos/ijtraining/master"
     DATASETS = {
-        "v6_distill (best — full distillation, 956 docs)": "v6_distill",
-        "v5_dense (balanced types, 463 docs)":             "v5_dense",
-        "v4_normalized (assignment-grounded, 2805 docs)":  "v4_normalized",
+        "Start here — all model-found entities labeled (956 articles)":          "v6_distill",
+        "Balanced types — person/org/event/location roughly even (463 articles)": "v5_dense",
+        "Editor-assigned terms only — fewest labels per article (2805 articles)": "v4_normalized",
     }
     return DATASETS, REPO_RAW
 

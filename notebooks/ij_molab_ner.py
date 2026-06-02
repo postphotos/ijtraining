@@ -29,10 +29,10 @@ app = marimo.App(width="full")
 def _constants():
     REPO_RAW = "https://raw.githubusercontent.com/postphotos/ijtraining/master"
     ADAPTERS = {
-        "Base only (no fine-tune — strongest extractor)": None,
-        "v6 distill adapter":    "adapters/v6/best",
-        "v5 dense adapter":      "adapters/v5/best",
-        "v4 normalized adapter": "adapters/v4/best",
+        "✅ Use this — base model, no fine-tune (finds the most entities)": None,
+        "⚠️ Experiment: trained on all model-found entities (956 docs) — worse than base": "adapters/v6/best",
+        "⚠️ Experiment: trained on balanced entity types (463 docs) — worse than base":    "adapters/v5/best",
+        "⚠️ Experiment: trained on editor-assigned terms (2805 docs) — worst of the three": "adapters/v4/best",
     }
     ADAPTER_FILES = ["adapter_model.safetensors", "adapter_config.json", "README.md"]
     return ADAPTER_FILES, ADAPTERS, REPO_RAW
@@ -41,11 +41,16 @@ def _constants():
 @app.cell
 def header():
     import marimo as mo
-    mo.md("""
-    # SCV NER Inference — molab GPU
-    **Repo:** [postphotos/ijtraining](https://github.com/postphotos/ijtraining) ·
-    Full-doc chunked extraction · Enable **GPU toggle ↑** for CUDA
-    """)
+    mo.vstack([
+        mo.md("# SCV Entity Extraction — molab GPU"),
+        mo.callout(mo.md(
+            "**Just use the default (base model).** The fine-tuned adapters are "
+            "experiments that currently perform *worse* than the out-of-the-box model — "
+            "they're kept here for comparison only. "
+            "The base model finds ~59 entities per article; the fine-tunes find ~30-50. "
+            "Enable the **GPU toggle ↑** in the molab header for CUDA."
+        ), kind="info"),
+    ], gap=0.5)
     return (mo,)
 
 
